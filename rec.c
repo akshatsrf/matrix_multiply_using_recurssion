@@ -66,9 +66,9 @@ void matrix_output_rows(int r1, int c1, int b[3][3])
 int main()
 {
 	int a[3][3],b[3][3],c[3][3],i=0,j=0,k=0;
-	printf("Enter the elements of A matrix : ");
+	printf("Enter the elements of A matrix : \n");
 	matrix_input_coloumns(i,j,a);
-	printf("Enter the elements of a B matrix : ");
+	printf("Enter the elements of B matrix : \n");
 	matrix_input_coloumns(i,j,b);
 	matrix_initialization(i,j,c);
 	matrix_multiplication_coloumns(i,j,k,a,b,c);
